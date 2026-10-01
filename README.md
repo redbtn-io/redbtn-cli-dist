@@ -3,10 +3,20 @@
 Public install tarballs for **`@redbtn/cli`** (the `redbtn` command-line connector).
 No registry key required — install from a release asset; dependencies resolve from public npm.
 
+> **This install path is retired.** Get the CLI (and redbtn Desktop) from the
+> download page: **https://redbtn.io/download**
+>
+> ```sh
+> curl -fsSL https://redbtn.io/install.sh | sh
+> ```
+>
+> Already installed? Update any time with `redbtn update`. The tarballs below
+> stay for history; new releases ship on the public channel instead.
+
 ## Install (latest)
 
 ```sh
-npm i -g https://github.com/redbtn-io/redbtn-cli-dist/releases/download/v0.0.16-alpha/redbtn-cli-0.0.16-alpha.tgz
+curl -fsSL https://redbtn.io/install.sh | sh
 ```
 
 Then:
